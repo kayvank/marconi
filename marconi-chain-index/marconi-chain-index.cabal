@@ -48,7 +48,8 @@ common lang
     -Wall -Widentities -Wincomplete-record-updates
     -Wincomplete-uni-patterns -Wmissing-import-lists
     -Wnoncanonical-monad-instances -Wredundant-constraints
-    -Wunused-packages
+    -Wunused-packages -O2 -threaded -eventlog -fhpc -prof -fprof-auto
+    -with-rtsopts=-p
 
 library
   import:          lang

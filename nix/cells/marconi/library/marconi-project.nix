@@ -2,5 +2,5 @@
 
 cell.library.make-marconi-project {
   deferPluginErrors = false;
-  enableHaskellProfiling = false;
+  enableHaskellProfiling = true;
 }
